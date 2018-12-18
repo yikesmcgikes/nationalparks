@@ -1,0 +1,128 @@
+<!--
+#052d81 // darkest blue
+#2b58b8
+#678fe3
+#a2b9e8 // lightest blue
+#e3b305 // mustard
+#f2ecd8 // pale
+-->
+ 
+@media (max-width: 600px) {
+	div, nav {
+		width: 100%;
+              }
+}
+* {
+	margin: 0;
+}
+article {
+	margin-left:15%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 0;
+	padding-left: 50px;
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+h1 {
+	font-size: 45px;
+}
+nav>ul>li a {
+	display: block;
+	color: #000;
+	padding: 15px 16px;
+	text-decoration: none;
+}
+nav>ul>li a.active {
+	background-color: #052d81;
+	color: white;
+}
+nav>ul>li a:hover:not(.active) {
+	background-color: #e3b305;
+	color: white;
+}
+nav>ul {
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+	width: 15%;
+	background-color: #dadfee;
+	font-weight: bold;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+#small {
+	width: 300px;
+	height: auto;
+	margin-right: 30%;
+	float: right;
+}
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+.marker {
+	font-family: 'Permanent Marker', cursive;
+}
+p {
+	width: 100%;
+	overflow: auto;
+}
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 15%;
+	z-index: -10;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.caption {
+/* font-style: italic; */
+	margin-left: 8%;
+	padding-left: 10px;
+	line-height: 5px;
+	font-size: small;
+	font-weight: bold;
+	overflow: visible;
+}
+.mediaselect, .parkselect {
+	display: inline-block;
+	margin: auto;
+	height: 50px;
+	width: 150px;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+	background-color: #a2b9e8;
+	border-style: none;
+	text-align: center;
+}
+.buttonactive {
+	background-color:  #052d81;
+	color: white;
+
+}
+.parkselect:hover:not(.buttonactive) {
+	background-color: #e3b305;
+	color: white;
+}
+.headimage {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}

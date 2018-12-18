@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>African Parks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Permanent+Marker" rel="stylesheet">
+    <script src="myscript.js"></script>
+  </head>
+  <body>
+    <nav class="lato">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="namerica.html">North America</a></li>
+        <li><a href="samerica.html">South America</a></li>
+        <li><a href="europe.html">Europe</a></li>
+        <li><a class="active" href="africa.html">Africa</a></li>
+        <li><a href="asia.html">Asia</a></li>
+        <li><a href="australia.html">Oceania</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+<!--CONTENT-->
+    <div class="container">
+      <img src="images/serengeti_wildebeest.jpg" alt="The Serengeti, Tanzania" class="headimage">
+      <div class="centered marker">Africa</div>
+    </div>
+      <section class="lato caption">
+        <p class="caption">Wildebeest migration in Serengeti Nat'l Park, Tanzania</p>
+      </section><br>
+    <article>
+      <section>
+        <h2 class="marker">Highlights</h2><br>
+        <button type="button" onclick="Kenya()" id="kebutton" class="parkselect">Kenya</button>
+        <button type="button" onclick="Tanzania()" id="tzbutton" class="parkselect">Tanzania</button>
+        <button type="button" onclick="Zimbabwe()" id="zwbutton" class="parkselect">Zimbabwe</button>
+        <button type="button" onclick="AFClear()" class="parkselect">Clear</button><br>
+        <br><p id="afcontent" class="lato">Chose a country above to find out more about their national parks! Choose Clear to return to this message.</p><br>
+      </section>
+      <section>
+        <h2 class="marker">Media</h2><br>
+		<a href="images/amboseli.jpg"><button class="mediaselect">Amboseli</button></a>
+		<a href="images/serengeti.jpg"><button class="mediaselect">Serengeti</button></a>
+		<a href="images/chinhoyi_caves.jpg"><button class="mediaselect">Chinhoyi Caves</button></a>
+		<br><br><br>
+		<p class="lato"><b>Wildebeest migration</b></p><br>
+		<audio controls>
+		  <source src="images/wildebeest.mp3">
+		</audio>
+      </section><br>
+	  <section>
+	    <h2 class="marker">More Resources</h2><br>
+		<a href="http://www.kws.go.ke/"><button class="mediaselect">Kenya Wildlife Service</button></a>
+		<a href="https://www.tanzaniatourism.go.tz/places-to-go/category/national-parks"><button class="mediaselect">Tanzania Tourist Board</button></a>
+		<a href="http://zimparks.org/"><button class="mediaselect">Zimparks - Zimbabwe Parks</button></a>
+	  </section>
+    </article>
+  </body>
+</html>

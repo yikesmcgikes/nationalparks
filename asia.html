@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Asian Parks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Permanent+Marker" rel="stylesheet">
+    <script src="myscript.js"></script>
+  </head>
+  <body>
+    <nav class="lato">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="namerica.html">North America</a></li>
+        <li><a href="samerica.html">South America</a></li>
+        <li><a href="europe.html">Europe</a></li>
+        <li><a href="africa.html">Africa</a></li>
+        <li><a class="active" href="asia.html">Asia</a></li>
+        <li><a href="australia.html">Oceania</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+<!--CONTENT-->
+    <div class="container">
+      <img src="images/khaosok_bamboo.jpg" alt="Khao Sok bamboo, Thailand" class="headimage">
+      <div class="centered marker">Asia</div>
+    </div>
+    <section class="lato caption">
+      <p class="caption">Khao Sok Nat'l Park, Thailand</p>
+    </section><br>
+    <article>
+      <section>
+        <h2 class="marker">Highlights</h2><br>
+        <button type="button" onclick="Japan()" id="jpbutton" class="parkselect">Japan</button>
+        <button type="button" onclick="Russia()" id="rubutton" class="parkselect">Russia</button>
+        <button type="button" onclick="Thailand()" id="thbutton" class="parkselect">Thailand</button>
+        <button type="button" onclick="ASClear()" class="parkselect">Clear</button><br>
+        <br><p id="ascontent" class="lato">Chose a country above to find out more about their national parks! Choose Clear to return to this message.</p><br>
+      </section>
+      <section>
+        <h2 class="marker">Media</h2><br>
+        <a href="images/lake_tanuki.jpg"><button class="mediaselect">Lake Tanuki</button></a>
+        <a href="images/alaniya.jpg"><button class="mediaselect">Alaniya</button></a>
+        <a href="images/doiphahompok.jpg"><button class="mediaselect">Doi Pha Hom Pok</button></a>
+      </section><br>
+      <section>
+        <h2 class="marker">More Resources</h2><br>
+        <a href="https://www.env.go.jp/en/nature/nps/park/"><button class="mediaselect">MOE Japan</button></a>
+        <a href="https://en.wikipedia.org/wiki/Zapovednik"><button class="mediaselect">Zapovedniks</button></a>
+        <a href="https://www.thainationalparks.com/"><button class="mediaselect">More Thai Parks</button></a>
+      </section>
+    </article>
+  </body>
+</html>
